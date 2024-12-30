@@ -8,6 +8,9 @@
     <br>
 </p>
 
+> [!NOTE]
+> This repository is a proof of concept and improvements or implementation of other hash algorithms is left as an exercise for the reader.
+
 ## Features
 
  - [x] Supports MD5 hashing algorithm.
