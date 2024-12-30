@@ -11,7 +11,7 @@
 
 #include "./includes/hashes/hashes_libssl_above_1.1.0.h"
 
-#define _NUM_THREADS 16
+#define _NUM_THREADS 32
 
 pthread_mutex_t mutex_report_value;
 pthread_t threads[_NUM_THREADS];
@@ -80,9 +80,8 @@ int main() {
 
     short tk = 0; //Thread counter in loops
 
-    printf("[+] \n");
-    printf("[+] \n");
-    printf("[+] \n\n");
+    printf("[+] Fuzzer of values that produces SQL injections with their raw hashes values\n");
+    printf("[+] by @podalirius_ \n\n");
 
     if (access(path_to_logfile, F_OK) != -1) {
         printf("[+] File %s already exists, appending new values to it.\n", path_to_logfile);
