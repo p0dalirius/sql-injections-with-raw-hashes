@@ -25,7 +25,7 @@ The repository includes a directory, [`./results/`](./results/), documenting not
 ```
 $ ./bin/hashsqli 
 [+] Fuzzer of values that produces SQL injections with their raw hashes values
-[+] by @podalirius_ 
+[+] by Remi GASCOU (Podalirius) 
 
 [+] File ./found_md5sqli.json already exists, appending new values to it.
 [+] Started at : 2024-12-28 15h 41m 55s

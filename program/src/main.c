@@ -81,7 +81,7 @@ int main() {
     short tk = 0; //Thread counter in loops
 
     printf("[+] Fuzzer of values that produces SQL injections with their raw hashes values\n");
-    printf("[+] by @podalirius_ \n\n");
+    printf("[+] by Remi GASCOU (Podalirius) \n\n");
 
     if (access(path_to_logfile, F_OK) != -1) {
         printf("[+] File %s already exists, appending new values to it.\n", path_to_logfile);
